@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sylvester Kamenya is a software developer who builds carefully crafted websites.">
+  <title>Sylvester • Software Developer</title>
+  <link rel="icon" href="Img/letterbeauty.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Roboto:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+
+    <!-- <nav class="nav" aria-label="Main">
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav> -->
+
+    <div class="nav-bar">
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+        <ul class="nav-links" id="nav-links">
+          <a href="#work"><li id="link-one">Work</li></a>
+          <a href="#about"><li id="link-two">About</li></a>
+          <a href="#services"><li id="link-three">Services</li></a>
+          <a href="#contact"><li id="link-four">Contact</li></a>
+        </ul>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">Hi, I'm Sylvester</h1>
+      <p class="hero-role">A Software Developer.</p>
+      <p class="hero-blurb">I find profound fulfillment in the refined craftsmanship of software creation, where innovation converges with meticulous attention to detail.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#work">See my work</a>
+        <a class="btn btn-outline" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section class="work" id="work" aria-labelledby="work-heading">
+      <img class="work-logo" src="Img/letterbeauty.png" alt="Sylvester Kamenya logo" width="80" height="80">
+      <h2 id="work-heading" class="work-heading">Selected work</h2>
+      <p class="work-intro">Previews of websites I have designed and built.</p>
+
+      <div class="cards">
+
+        <article id="cardOne" class="card">
+          <a href="https://westerndiscoverysafaris.com" target="_blank"><div class="card-media"><img src="Img/WSTRN.PNG" alt="RoarBike e-commerce website homepage" loading="lazy"></div>
+          <div class="card-body">
+            <p class="card-type">Tour Company</p>
+            <h3 class="card-title">Western Discovery Safaris</h3>
+            <p class="card-desc">A safari and tour booking site for exploring Tanzania's wildlife and landscapes.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          </div></a>
+        </article>
+
+      </div>
+      
+      <p id="SecondOne" class="work-intro">Previews of unpublished websites I have designed and built.</p>
+
+      <div class="cards">
+
+        <article class="card">
+          <div class="card-media"><img src="Img/SPHERE.PNG" alt="MadTunes music website homepage" loading="lazy"></div>
+          <div class="card-body">
+            <p class="card-type">Books</p>
+            <h3 class="card-title">Story Shelf</h3>
+            <p class="card-desc">A book-swapping platform where readers trade books with each other.</p>
+            <ul class="tags"><li>React</li><li>Node.js</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media"><img src="Img/TRADE.PNG" alt="Dan's Meat Yogurt website homepage" loading="lazy"></div>
+          <div class="card-body">
+            <p class="card-type">E-Commerce</p>
+            <h3 class="card-title">Agora Trade</h3>
+            <p class="card-desc">An online marketplace where people trade goods and services directly with each other.</p>
+            <ul class="tags"><li>Laravel</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section section-alt" id="about" aria-labelledby="about-heading">
+      <div class="section-inner">
+        <h2 class="section-title" id="about-heading">About me</h2>
+        <div class="section-body">
+          <p>I'm Sylvester, a front-end developer who cares about how things look and how they feel to use. I build responsive, polished interfaces with HTML, CSS, JavaScript and React, and I can work on the backend with Laravel when a project needs it. My latest work is Western Discovery Safaris, a live booking site for a Tanzanian tour company.</p>
+          <p>I'm committed to continuous learning, constantly exploring new technologies and design patterns to stay current. With a combination of creativity, adaptability and a strong work ethic, I deliver high-quality solutions that delight users and support business success.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-heading">
+      <div class="section-inner">
+        <h2 class="section-title" id="services-heading">Services</h2>
+        <div class="section-body">
+          <p>Elevate your online presence with my front-end development services. I craft engaging, user-centric websites that blend aesthetics with functionality.</p>
+          <p>Using modern technologies and careful attention to detail, I make sure your website stands out and delivers an excellent user experience. Let's collaborate to turn your vision into reality.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact" aria-labelledby="contact-heading">
+      <div class="section-inner">
+        <h2 class="section-title" id="contact-heading">Contact me</h2>
+        <div class="section-body">
+          <p>Below are a few ways to reach me.</p>
+          <dl class="contact-list">
+            <div><dt>Email</dt><dd><a href="mailto:sangoshadrackkamenya@gmail.com">sangoshadrackkamenya@gmail.com</a></dd></div>
+            <div><dt>Phone</dt><dd><a href="tel:+255752116268">+255 752 116 268</a></dd></div>
+          </dl>
+          <ul class="social-links">
+            <li><a href="https://wa.me/255752116268" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://www.instagram.com/_sylvr3k/" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+          document.addEventListener('DOMContentLoaded', () => {
+          const toggleButton = document.getElementById('menu-toggle');
+          const navLinks = document.getElementById('nav-links');
+
+          toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+          });
+          });
+  </script>
+</body>
+</html>
