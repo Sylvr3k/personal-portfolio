@@ -82,7 +82,6 @@ img { display: block; max-width: 100%; height: auto; }
   z-index: 100;
   flex-direction: row;
   position: fixed;
-  transition: 1s;
   flex-wrap: wrap;
 }
 
@@ -91,6 +90,10 @@ img { display: block; max-width: 100%; height: auto; }
   font-size: 16px;
   margin: 0 10px;
   border-radius: 50px;
+}
+
+.nav-links.active{
+  transition: none;
 }
 
 .nav-links {
@@ -105,7 +108,7 @@ img { display: block; max-width: 100%; height: auto; }
   flex-direction: row;
   position: fixed;
   top: 20px;
-  transition: 0.3s;
+  transition: 1s;
   flex-wrap: wrap;
 }
 
